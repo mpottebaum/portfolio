@@ -1,0 +1,10 @@
+.container {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.video {
+    display: block;
+}
