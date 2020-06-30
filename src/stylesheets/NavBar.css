@@ -1,8 +1,11 @@
-.container {
+.nav-container {
     display: flex;
     justify-content: center;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .nav {
     margin: 15pt;
+    cursor: pointer;
 }

@@ -1,8 +1,8 @@
-.container {
-    display: grid;
+.home-container {
+    /* display: grid;
     grid-template-columns: auto;
-    justify-content: center;
-    margin-top: 10vh;
+    justify-content: center; */
+    /* margin-top: 10pt; */
 }
 
 .video {

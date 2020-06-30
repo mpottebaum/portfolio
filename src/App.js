@@ -9,16 +9,16 @@ import About from './components/About';
 import NavBar from './components/NavBar';
 
 function App() {
-  return (
+  return <div className='main-container'>
       <Router>
+        {/* <NavBar /> */}
         <Route exact path={'/'} component={Home} />
         <Route path={'/about'} component={About} />
         <Route path={'/portfolio'} component={Portfolio} />
         <Route path={'/blog'} component={Blog} />
         <Route path={'/music'} component={Music} />
-        <NavBar />
       </Router>
-  );
+  </div>
 }
 
 export default App;
