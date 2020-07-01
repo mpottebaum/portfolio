@@ -15,13 +15,7 @@ const Project = ({ project }) => {
 
     return <div className='pro-container'>
         <div className='pro-top'>
-            <iframe
-                width="560"
-                height="315"
-                src={project.demo}
-                frameborder="0"
-                allowfullscreen>
-            </iframe>
+            
             <div className='pro-descrip'>
                 <h1>{project.title}</h1>
                 <div className='pro-links'>
@@ -39,6 +33,13 @@ const Project = ({ project }) => {
                     null
                 }
             </div>
+            <iframe
+                width="560"
+                height="315"
+                src={project.demo}
+                frameborder="0"
+                allowfullscreen>
+            </iframe>
         </div>
         <div>
             <h2>Technologies</h2>

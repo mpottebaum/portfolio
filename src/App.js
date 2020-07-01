@@ -7,10 +7,12 @@ import Blog from './components/Blog';
 import Music from './components/Music';
 import About from './components/About';
 import NavBar from './components/NavBar';
+import Contact from './components/Contact'
 
 function App() {
   return <div className='main-container'>
       <Router>
+        <Contact />
         <NavBar />
         <Route exact path={'/'} component={Home} />
         <Route path={'/about'} component={About} />

@@ -1,0 +1,51 @@
+.contact-container {
+    display: flex;
+    justify-content: center;
+    height: 12%;
+
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-text {
+    color: white;
+    margin: 5pt;
+}
+
+.name {
+    font-size: larger;
+    text-align: right;
+}
+
+.contact-links {
+    display: flex;
+    margin-left: 10pt;
+}
+
+.git {
+    margin-right: 12pt;
+}
+
+.git, .linkedin {
+    display: flex;
+    align-content: flex-end;
+}
+
+img.link-img {
+    height: 70%;
+    align-self: center;
+}
+
+a {
+    display: flex;
+}
