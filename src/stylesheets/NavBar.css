@@ -1,11 +1,16 @@
 .nav-container {
     display: flex;
     justify-content: center;
+    align-content: center;
     font-size: xx-large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    height: 15%;
 }
 
 .nav {
+    align-self: center;
     margin: 15pt;
     cursor: pointer;
+    color: white;
 }

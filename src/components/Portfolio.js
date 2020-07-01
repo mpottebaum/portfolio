@@ -10,7 +10,7 @@ class Portfolio extends React.Component {
     }
 
     render() {
-        return <div className='pf-container'>
+        return <div id='portfolio' className='pf-container'>
             {this.renderProjects()}
         </div>
     }

@@ -1,7 +1,7 @@
 
 
 .main-container {
-  background-image: url('/fractal.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/fractal.jpg');
   height: 100vh;
 }
 

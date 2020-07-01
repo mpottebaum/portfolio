@@ -11,7 +11,7 @@ import NavBar from './components/NavBar';
 function App() {
   return <div className='main-container'>
       <Router>
-        {/* <NavBar /> */}
+        <NavBar />
         <Route exact path={'/'} component={Home} />
         <Route path={'/about'} component={About} />
         <Route path={'/portfolio'} component={Portfolio} />

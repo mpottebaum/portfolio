@@ -10,9 +10,10 @@
 
 .about-box {
     align-self: center;
-    background-color: rgba(112, 121, 140, 0.85);
+    color: white;
+    /* background-color: rgba(112, 121, 140, 0.85);
     padding: 0.5rem;
-    border-radius: 40%;
+    border-radius: 40%; */
 }
 
 .pf-box {

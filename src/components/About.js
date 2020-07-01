@@ -10,7 +10,7 @@ class About extends React.Component {
                 <p>Musician</p>
             </div>
             <div className='pf-box'>
-                <p className='pf-text'>PORTFOLIO</p>
+                <a href='#portfolio'><p className='pf-text'>PORTFOLIO</p></a>
                 <img className='pf-arrow' src='/down-arrow.png' />
             </div>
         </div>

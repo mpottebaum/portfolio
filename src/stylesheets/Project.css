@@ -1,0 +1,17 @@
+.pro-container {
+    height: 100vh;
+    background-color: #f5f1ed;
+}
+
+.pro-top {
+    display: flex;
+    flex-flow: row ;
+}
+
+.pro-links {
+    display: flex;
+}
+
+.pro-descrip {
+    width: 50%;
+}
