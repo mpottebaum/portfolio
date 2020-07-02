@@ -10,9 +10,6 @@ class NavBar extends React.Component {
     render() {
         return <div className='nav-container'>
         <div className='nav' onClick={() => this.handleClick('/')}>
-            <p>Home</p>
-        </div>
-        <div className='nav' onClick={() => this.handleClick('/about')}>
             <p>About</p>
         </div>
         <div className='nav' onClick={() => this.handleClick('/portfolio')}>

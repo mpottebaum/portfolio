@@ -14,8 +14,7 @@ function App() {
       <Router>
         <Contact />
         <NavBar />
-        <Route exact path={'/'} component={Home} />
-        <Route path={'/about'} component={About} />
+        <Route exact path={'/'} component={About} />
         <Route path={'/portfolio'} component={Portfolio} />
         <Route path={'/blog'} component={Blog} />
         <Route path={'/music'} component={Music} />
