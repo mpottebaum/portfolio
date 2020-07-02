@@ -1,8 +1,8 @@
 .contact-container {
     display: flex;
-    justify-content: center;
-    height: 12%;
-
+    justify-content: flex-end;
+    /* height: 12%; */
+    margin-right: 15pt;
 }
 
 .contact-info {
@@ -15,15 +15,15 @@
 .contact-details {
     display: flex;
     flex-direction: row;
+    margin-top: 4pt;
 }
 
 .contact-text {
     color: white;
-    margin: 5pt;
 }
 
 .name {
-    font-size: larger;
+    font-size: x-large;
     text-align: right;
 }
 
@@ -48,4 +48,5 @@ img.link-img {
 
 a {
     display: flex;
+    width: fit-content;
 }

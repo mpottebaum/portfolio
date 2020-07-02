@@ -38,7 +38,9 @@ const Project = ({ project }) => {
                 height="315"
                 src={project.demo}
                 frameborder="0"
-                allowfullscreen>
+                allowfullscreen
+                title={project.title}
+            >
             </iframe>
         </div>
         <div>

@@ -3,6 +3,13 @@
 .main-container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/fractal.jpg');
   height: 100vh;
+  display: grid;
+  grid-template-rows: 60pt 45pt auto;
+}
+
+p {
+  margin-block-end: 0;
+  margin-block-start: 0;
 }
 
 

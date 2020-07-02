@@ -9,10 +9,6 @@ class About extends React.Component {
                 <p>Writer</p>
                 <p>Musician</p>
             </div>
-            <div className='pf-box'>
-                <a href='#portfolio'><p className='pf-text'>PORTFOLIO</p></a>
-                <img className='pf-arrow' src='/down-arrow.png' />
-            </div>
         </div>
     }
 }
